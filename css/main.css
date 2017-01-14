@@ -4,8 +4,8 @@ body {
 	background-color: #3394EC;
 	padding-top: 50px;
 	margin: auto;
+	font-family: 'Nunito', sans-serif;
 	text-align: center;
-	font-family: 'Nunito', sans-serif;;
 }
 
 /* LOGO */
@@ -19,10 +19,10 @@ img {
 form {
 	background-color: #F8F9F9;
 	width: 400px;
-	height: 350px;
 	border-radius: 2px;
-	padding: 0 40px;
+	padding: 20px 40px 40px 40px;
 	margin: 50px auto;
+	text-align: left;
 }
 
 h1 {
@@ -30,19 +30,32 @@ h1 {
 	color: #5F6A6A;
 	font-weight: lighter;
 	padding: 30px;
+	text-align: center;
 }
 
-input, button {
+label {
+	padding-left: 40px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+button {
 	margin: auto;
 }
 
 input {
-	width: 320px;
+	width: 306px;
 	border: 2px solid #CCC;
 	border-radius: 2px;
 	height: 55px;
 	display: block;
 	font-size: 16px;
+	padding-left: 10px;
+	margin: 10px auto 10px auto;
+}
+
+input::placeholder {
+	padding: 20px;
 }
 
 button {
@@ -56,13 +69,21 @@ button {
 	font-size: 20px;
 	font-weight: 400;
 	display: block;
+	margin: 20px auto;
 }
 
 button:hover {
 	background-color: #1E8449;
 }
 
+form a {
+	color: #888;
+	font-size: 14px;
+}
 /* FOOTER */
 
-/* inputs and buttons: 320 width, 2px border and 15px padding
-input button height 55 px including 2px border and 15 px padding
+body a, p {
+	color: #FFF;
+	font-weight: 400;
+	margin-top: -20px;
+}
