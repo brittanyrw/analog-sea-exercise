@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalogSea Sign Up Page</title>
+	<meta name="description" content="AnalogSea is a cloud computing software company. Sign up now for updates and news.">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<img src="images/logo.png" class="logo" alt="AnalogSea company logo">
+	<form action="/signup/" method="post">
+		<h1>Sign up</h1>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+
+		<label for="password">Password</label>
+		<input type="text" name="password" id="password" placeholder="1234passw0rd" required/>
+
+		<button type="submit">Sign up</button>
+		<a href="/forgot-password/new">Forgot password?</a>
+	</form>
+	<p>Already have an account? <a href="/login">Log in</a></p>
+</body>
+</html>
+
+<!-- form should post to /signup/
+hover over submit to darker green #27ae60 1E8449 196F3D
+for attributes
+ -->
