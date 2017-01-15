@@ -8,6 +8,10 @@ body {
 	text-align: center;
 }
 
+p {
+	color: #FFF;
+}
+
 /* LOGO */
 
 img {
@@ -22,6 +26,7 @@ form {
 	border-radius: 2px;
 	padding: 20px 40px 40px 40px;
 	margin: 50px auto;
+	box-sizing: border-box;
 	text-align: left;
 }
 
@@ -34,7 +39,6 @@ h1 {
 }
 
 label {
-	padding-left: 40px;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -44,14 +48,15 @@ button {
 }
 
 input {
-	width: 306px;
+	width: 320px;
 	border: 2px solid #CCC;
 	border-radius: 2px;
 	height: 55px;
 	display: block;
 	font-size: 16px;
-	padding-left: 10px;
+	padding: 15px;
 	margin: 10px auto 10px auto;
+	box-sizing: border-box;
 }
 
 input::placeholder {
@@ -76,13 +81,15 @@ button:hover {
 	background-color: #1E8449;
 }
 
-form a {
+.password {
 	color: #888;
 	font-size: 14px;
+	display: block;
+	text-align: center;
 }
 /* FOOTER */
 
-body a, p {
+.login {
 	color: #FFF;
 	font-weight: 400;
 	margin-top: -20px;
